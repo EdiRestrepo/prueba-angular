@@ -5,7 +5,8 @@ function moverX(myArray) {
     );
     let posX = 0;
     let posY = 0;
-  
+
+    console.log(area);
     for (let i = 0; i < myArray.length; i += 2) {
       const moveX = myArray[i];
       const moveY = myArray[i + 1];
@@ -27,5 +28,5 @@ function moverX(myArray) {
   }
   
   // Ejemplo de uso:
-  const myArray = [1, 2, -1, 1, 0, 1, 2, -1, -1, -2];
+  const myArray = [-1, 2, -1, 1, 0, 1, 2, -1, -2, -2];
   moverX(myArray);

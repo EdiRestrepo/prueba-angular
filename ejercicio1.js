@@ -1,6 +1,6 @@
 var letra = 'X';
 var espacio = '_';
-var n = 5;
+var n = 6;
 var linea = "";
 
 if(n == 0){
